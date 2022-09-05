@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'Space Mono';
+  src: url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap'rel='stylesheet");
+}
+
+.container {
+  font-family: 'Space Mono';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  margin: 0 auto;
+  background-color: #1f50ffbd;
+}
+
+.timer {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 9px;
+  margin-bottom: 2rem;
+  font-size: 30px;
+  letter-spacing: 1.3px;
+  padding: 1rem;
+  color: orange;
+}
+
+.btnContainer button {
+  border-radius: 8px;
+  border: 0;
+  display: block;
+  padding: 0.345rem 0.79rem;
+  margin: 1rem auto;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: bold;
+  color: #f1f4f8;
+  background-color: #5d7594;
+}
+
+.btnContainer button:active {
+  transform: scale(0.98);
+}
+
+.btnContainer {
+  width: 50%;
+}
